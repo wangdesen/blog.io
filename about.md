@@ -10,14 +10,12 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是EagerBest。
-
-我 **托管在Github Pages** 。
+我是EagerBest，我 **托管在Github Pages** 。
 
 ###坚信
 
 
-- 占位1
+- ​
 - 占位2
 - 占位3
 - 占位4

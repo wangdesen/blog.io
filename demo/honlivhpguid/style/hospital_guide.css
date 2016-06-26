@@ -1,0 +1,82 @@
+html,body{height:100%; width:100%; overflow:hidden; margin:0; padding:0;}
+.main{width:100%; height:90%; overflow:hidden; margin:0; padding:0;}
+.a1{width:100%; height:5%; color:#fff; background-color:#369; text-align:center;}
+.a2{width:10%; height:100%; color:#fff; background-color:#96b97d; float:left;text-align:center;}
+
+.a3{width:80%; height:100%; float:left;text-align:center;}
+.a3x{width:100%; height:100%; float:left;text-align:center;}
+
+.a4{width:10%; height:100%; color:#fff; background-color:#96b97d; float:left;text-align:center;}
+.a5{width:100%; height:5%; color:#fff; background-color:#369; text-align:center;}
+#myimg{ width: 100%; height: 100%; vertical-align: text-bottom; max-width: 100%; max-height: 100%;}
+
+/*#cycle_buttom{align-self:flex-end;}*/
+img.ex2
+{
+    position:relative;
+    bottom:-88%;
+}
+/*color:#fff; background-color:#FF0000;*/
+
+/*#iPicture {width:80%; height:100%; float:left;text-align:center;}*/
+
+/*#iPicture #myimg{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*-moz-background-size:contain;*/
+    /*-webkit-background-size:contain;*/
+    /*-o-background-size:contain;*/
+    /*background-size:contain;*/
+/*}*/
+/*#iPicture.maf #myimg { background: url(images/maf.jpg) no-repeat;}*/
+/*#iPicture.mab #myimg { background: url(images/mab.jpg); }*/
+/*#iPicture.faf #myimg { background: url(images/faf.jpg); }*/
+/*#iPicture.fab #myimg { background: url(images/fab.jpg); }*/
+
+/*.maf {display:block;height:24px;width:55px;background:url("images/maf.jpg") left no-repeat; }*/
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #C7C5C5; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "男";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "女";
+    padding-right: 10px;
+    background-color: #F778A1; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 28px; margin: 1px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #C7C5C5; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	    <meta http-equiv="Pragma" content="no-cache" />
+	    <meta http-equiv="Expires" content="0" />
+		<title>body-hospital-guide</title>
+		<!--<link rel="stylesheet" type="text/css" href="http://www.ijquery.cn/css/css.css" media="all" />-->
+		<!-- start -->
+		<!-- 图片标注-->
+		<link rel="stylesheet" type="text/css" media="screen" href="style/iPicture.css?date=2016062401"/>
+		<!-- end -->
+		<link rel="stylesheet" type="text/css" href="style/hospital_guide.css"/>
+		<!-- 弹出层-->
+		<link rel="stylesheet" type="text/css" href="layer/need/layer.css"/>
+		<!-- WEUI-->
+		<link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css"/>
+	</head>
+	
+	<body>
+		<!--<div id="header" class="a1">-->
+			<!--<h1>智能导诊-采用jquery.ipicture.js</h1>-->
+		<!--</div>-->
+		<div class="a1">智能导诊-采用jquery.ipicture.js</div>
+		<div class="main">
+			<div class="a2">
+				<img id="m2f" src="images/arrow_bold_cycle_circle_32px.png" onclick="demo.m2f();"/>
+				<!--<div class="onoffswitch">-->
+					<!--<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>-->
+					<!--<label class="onoffswitch-label" for="myonoffswitch">-->
+						<!--<span class="onoffswitch-inner"></span>-->
+						<!--<span class="onoffswitch-switch"></span>-->
+					<!--</label>-->
+				<!--</div>-->
+			</div>
+
+			<!-- start -->
+			<div id="iPicture" class="a3" data-interaction="hover">
+				<div class="ip_slide a3x">
+					<!-- 本身的图片 ip_tooltipImg-->
+					<!-- 图片宽高为width:389px;height:739px-->
+					<!-- class="" src="images/maf.jpg" -->
+					<!-- src="images/humanbody/maf.jpg"-->
+					<img id="myimg"/>
+
+					<div id="body_header" class="ip_tooltip ip_img36" style="top: 6%; left: 44%;" data-round="roundBgWInner">
+					</div>
+					<div id="body_neck" class="ip_tooltip ip_img36" style="top: 13%; left: 44%;" data-round="roundBgWInner">
+					</div>
+
+					<div id="body_left_upper_limb" class="ip_tooltip ip_img40" style="top: 21%; left: 5%;" data-round="roundBgWInner">
+					</div>
+					<div id="body_right_upper_limb" class="ip_tooltip ip_img40" style="top: 19%; left: 66%;" data-round="roundBgWInner">
+					</div>
+					<!--<div class="ip_tooltip ip_img36" style="top: 35%; left: 72%;" data-round="roundBgWInner" onclick="alert('这里是上肢！')">-->
+					<!--</div>-->
+					<!--<div class="ip_tooltip ip_img36" style="top: 50%; left: 82%;" data-round="roundBgWInner" onclick="alert('这里是手掌！')">-->
+					<!--</div>-->
+
+					<div id="body_chest" class="ip_tooltip ip_img38" style="top: 19%; left: 35%;" data-round="roundBgWInner">
+					</div>
+					<div id="body_abdomen" class="ip_tooltip ip_img38" style="top: 32%; left: 35%;" data-round="roundBgWInner">
+					</div>
+					<div id="body_sex_organ" class="ip_tooltip ip_img38" style="top: 44%; left: 35%;" data-round="roundBgWInner">
+					</div>
+
+					<div id="body_lower_limb" class="ip_tooltip ip_img40" style="top: 55%; left: 35%;" data-round="roundBgWInner">
+					</div>
+					<!--<div class="ip_tooltip ip_img36" style="top: 92%; left: 52%;" data-round="roundBgWInner" onclick="alert('这里是足部！')">-->
+					<!--</div>-->
+
+				</div>
+			</div>
+			<!-- end -->
+
+			<div class="a4">
+
+				<img id="a2c" src="images/arrow_bold_cycle_circle_32px.png" onclick="demo.a2c();"/>
+				<img id="f2b" class="ex2" src="images/arrow_bold_cycle_circle_32px.png" onclick="demo.f2b();"/>
+			</div>
+		</div>
+		<div id="footer" class="a5">Copyright © Honlivhp.com</div>
+
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="Script/jquery.ipicture.js"></script>
+		<script src="Script/state-machine.js"></script>
+		<script src="layer/layer.js"></script>
+		<script src="Script/hospital_guide.js?date=20160624"></script>
+		<script type="text/javascript">
+			$( "#iPicture" ).iPicture();
+
+			//定义旋转按钮的状态机
+//			var s = new Switch($("#turn_over"));
+//
+//			console.log(s.current);
+		</script>
+	</body>
+</html>

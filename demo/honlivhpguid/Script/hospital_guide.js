@@ -213,9 +213,11 @@ demo = function(){
 
             onm2f:        function(event, from, to) { log(from, to);},
             onf2b:       function(event, from, to) { log(from, to); },
-            ona2c:        function(event, from, to) { log(from, to);},
+            ona2c:        function(event, from, to) { log(from, to);}
 
-            onchangestate: function(event, from, to) { log("CHANGED STATE: " + from + " to " + to); }
+            //onchangestate: function(event, from, to) {
+            //    console.log("CHANGED STATE: " + from + " to " + to);
+            //}
         }
     });
 

@@ -16,6 +16,12 @@ img.ex2
     position:relative;
     bottom:-88%;
 }
+
+#preload-01 { background: url(/images/humanbody/maf.jpg) no-repeat -9999px -9999px; }
+#preload-02 { background: url(/images/humanbody/mab.jpg) no-repeat -9999px -9999px; }
+#preload-03 { background: url(/images/humanbody/faf.jpg) no-repeat -9999px -9999px; }
+#preload-04 { background: url(/images/humanbody/fab.jpg) no-repeat -9999px -9999px; }
+
 /*color:#fff; background-color:#FF0000;*/
 
 /*#iPicture {width:80%; height:100%; float:left;text-align:center;}*/

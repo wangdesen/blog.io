@@ -2,15 +2,15 @@
 title: Eager Best
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "陈素封|读而立·写而生"  
-baseurl: ""
-url: "http://cnfeat"  
+description: "Java-JavaScript开发者-二味码"  
+baseurl: "http://www.eagerbest.com"
+url: "http://eagerbest"  
 
 # About/contact
 owner: 
   name: " EagerBest"
   email: desen000@gmail.com
-  bio: "测试bio"
+  bio: "http://wangdesen.deercv.com/"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
@@ -18,7 +18,7 @@ favicon: img/favicon.png
 
 douban_username:  
 twitter_username: 
-github_username: 
+github_username: wangdesen
 facebook_username: 
 weibo_username: 
 zhihu_username: 
